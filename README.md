@@ -12,7 +12,7 @@ them provide SQL Standard functionality but without the SQL Standard grammar,
 others extend on the SQL Standard, and still others are novel and hopefully
 useful to someone.
 
-## Simualating Standard SQL
+## Simulating Standard SQL
 
 The window functions `LEAD()`, `LAG()`, `FIRST_VALUE()`, `LAST_VALUE()`, and
 `NTH_VALUE()` can skip over null values.  PostgreSQL does not implement the
