@@ -47,6 +47,6 @@ and implements the
 "[flip floperator](https://en.wikipedia.org/wiki/Flip-flop_(programming))".
 
 In the first variant, the function returns false until the expression given as
-an argument returns true.  It then keeps returning true until expression is
+an argument returns true.  It then keeps returning true until the expression is
 matched again.  The second variant takes two expressions: the first to flip,
 the second to flop.
