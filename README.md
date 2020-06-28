@@ -22,6 +22,16 @@ functions that give you the same behavior.
 In addition to this, `NTH_VALUE()` can count from the start or the end of the
 window frame.
 
+Functions provided:
+
+- `lag_ignore_nulls(expression[, offset[, default]])`
+- `lead_ignore_nulls(expression[, offset[, default]])`
+- `first_value_ignore_nulls(expression)`
+- `last_value_ignore_nulls(expression)`
+- `nth_value_from_last(expression, offset)`
+- `nth_value_ignore_nulls(expression, offset)`
+- `nth_value_from_last_ignore_nulls(expression, offset)`
+
 Despite these functions having long names, there isn't really any difference in
 length compared to the excessively verbose SQL Standard syntax.
 
@@ -40,6 +50,14 @@ requested row falls outside of the partition.  However, the functions
 `FIRST_VALUE()`, `LAST_VALUE()`, and `NTH_VALUE()` do not have default values
 for when the requested row is not in the frame.
 
+Functions provided:
+
+- `first_value_ignore_nulls(expression, default)`
+- `last_value_ignore_nulls(expression, default)`
+- `nth_value_from_last(expression, offset, default)`
+- `nth_value_ignore_nulls(expression, offset, default)`
+- `nth_value_from_last_ignore_nulls(expression, offset, default)`
+
 ## Non-Standard Functions
 
 This extension introduces a new partition-level window function `flip_flop()`
@@ -50,3 +68,8 @@ In the first variant, the function returns false until the expression given as
 an argument returns true.  It then keeps returning true until the expression is
 matched again.  The second variant takes two expressions: the first to flip,
 the second to flop.
+
+Functions provided:
+
+- `flip_flop(expression[, expression])`
+
