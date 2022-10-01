@@ -1,2 +1,5 @@
 .vscode/
 test_current.sh
+.deps/
+extra_window_functions.o
+extra_window_functions.so
