@@ -3,8 +3,6 @@
 [![License](https://img.shields.io/badge/license-PostgreSQL-blue)](https://www.postgresql.org/about/licence/)
 [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-PostgreSQL-blueviolet)](https://www.postgresql.org/about/policies/coc/)
 
-[![Travis Build Status](https://api.travis-ci.com/xocolatl/extra_window_functions.svg?branch=master)](https://travis-ci.com/xocolatl/extra_window_functions)
-
 *compatible 9.6–13*
 
 This extension provides additional window functions to PostgreSQL.  Some of
