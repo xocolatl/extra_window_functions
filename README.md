@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-PostgreSQL-blue)](https://www.postgresql.org/about/licence/)
 [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-PostgreSQL-blueviolet)](https://www.postgresql.org/about/policies/coc/)
 
-*compatible 9.6–13*
+*compatible 9.6–15*
 
 This extension provides additional window functions to PostgreSQL.  Some of
 them provide SQL Standard functionality but without the SQL Standard grammar,
